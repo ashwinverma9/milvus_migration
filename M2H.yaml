@@ -1,0 +1,12 @@
+M2H:
+  milvus_version: 1.x
+  source_milvus_path: '/home/user/milvus'
+  mysql_parameter: ""
+    host: 'http://35.185.243.8:19530'
+    user: 'root'
+    port: 443
+    password: '123456'
+    database: 'milvus'
+  source_collection: 'reviews'
+    test:
+  data_dir: 'dbfs:/FileStore/tables/"
